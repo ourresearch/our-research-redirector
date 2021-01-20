@@ -1,2 +1,2 @@
-# unpaywall-journals-redirecter
-Redirect traffic from unpaywall-journals to get-unsub
+# our-research-redirector
+Redirect traffic to ourresearch.org
