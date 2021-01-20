@@ -1,2 +1,2 @@
 # our-research-redirector
-Redirect traffic to ourresearch.org
+Redirect traffic to the [Our Research](https://ourresearch.org) homepage.
