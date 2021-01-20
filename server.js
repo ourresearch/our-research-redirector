@@ -1,3 +1,12 @@
+
+
+
+
+// ****************************************
+// i copied all this file from the unpaywall-journals-redirecter repo;
+// just changed the url we're redirecting to.
+// ****************************************
+
 const express = require('express');
 const path = require('path');
 const serveStatic = require('serve-static');
@@ -12,7 +21,7 @@ app.use(serveStatic(__dirname + "/dist"));
 
 
 app.get('*', function (req, res) {
-    const redirectUrl = "https://unsub.org" + req.path;
+    const redirectUrl = "https://ourresearch.org" + req.path;
     res.redirect(301, redirectUrl);
 });
 
