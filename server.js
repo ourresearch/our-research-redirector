@@ -21,7 +21,7 @@ app.use(serveStatic(__dirname + "/dist"));
 
 
 app.get('*', function (req, res) {
-    const redirectUrl = "https://ourresearch.org" + req.path;
+    const redirectUrl = "https://ourresearch.org" + req.originalUrl;
     res.redirect(301, redirectUrl);
 });
 
